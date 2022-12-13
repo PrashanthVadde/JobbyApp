@@ -1,0 +1,244 @@
+.job-card-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+  min-height: 100vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.job-item-details-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 12px;
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.job-details-card-img-styles {
+  height: 80px;
+  width: 80px;
+  margin-right: 14px;
+}
+
+.job-card-title-and-rating-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-details-card-title {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.star-logo-and-rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-detail-card-star {
+  color: #fbbf24;
+  height: 30px;
+  width: 30px;
+  margin-right: 14px;
+}
+
+.rating-styles {
+  color: #f8fafc;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.job-details-card-location-and-salary-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-details-card-location-icon {
+  color: #f8fafc;
+  height: 40px;
+  width: 40px;
+  margin-right: 12px;
+}
+
+.job-item-details-location {
+  color: #cbd5e1;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-right: 30px;
+}
+
+.job-item-details-employment-type {
+  color: #cbd5e1;
+  font-size: 18px;
+  font-family: 'Roboto';
+}
+
+.job-item-details-employment-package-per-annum {
+  color: #cbd5e1;
+  font-size: 18px;
+  font-family: 'Roboto';
+  align-self: flex-end;
+  margin-left: 800px;
+}
+
+.job-details-card-divider {
+  color: #2c364c;
+  width: 100%;
+}
+
+.job-details-card-description-side-heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.description-heading-and-visit-link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.visit-link-container {
+  display: flex;
+  align-items: center;
+  color: #6366f1;
+  font-family: 'Roboto';
+}
+
+.visit-link-styles {
+  color: #6366f1;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.job-details-card-description {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.skills-details-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.skills-img-styles {
+  height: 50px;
+  width: 50px;
+  margin-right: 14px;
+}
+
+.skills-name-styles {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.life-at-company-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.life-at-company-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.life-at-company-img-styles {
+  height: 300px;
+  width: 300px;
+}
+
+.similar-jobs-heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.similar-job-cards-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  list-style-type: none;
+  padding-left: 0;
+  flex-wrap: wrap;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 92vh;
+  background-color: black;
+}
+
+.failure-view-heading {
+  color: white;
+  font-family: 'Roboto';
+}
+
+.failure-view-message {
+  color: white;
+  font-family: 'Roboto';
+}
+
+.retry-button-styles {
+  color: white;
+  background-color: #4f46e5;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 92vh;
+  background-color: black;
+}

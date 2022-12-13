@@ -1,0 +1,47 @@
+.header-container {
+  height: 62px;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #272727;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.header-web-logo-styles {
+  height: 40px;
+  width: 120px;
+}
+
+.jobs-and-home-tabs-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-tab-styles {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.logout-btn-styles {
+  height: 30px;
+  width: 100px;
+  color: white;
+  background-color: #4f46e5;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
